@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META tags help search engines identify your page -->
+    <meta charset="utf-8"> <!-- character encoding for the page -->
+    <meta name="author" content="Ethan Tan">
+    <meta name="keywords" content="Happy Day Dessert Factory">
+    <meta name="description" content="Happy Day Dessert Factory Website">
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title> Happy Day Dessert Factory </title>
+</head>
+<body>
+    <div id="container">
+        <div id="top_row">
+            <img src="images/logo-removebg-preview.png" alt="Logo" style="width:100px;height:100px;">
+            <header>
+              Happy Day Dessert Factory 
+            </header>
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="story.html">Our Story</a> 
+                <a href="menu.html">Our Menu</a>
+                <a href="promotions.html">Promotions</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <hr>
+        </div>
+        <br><br>
+        <div id="contact-container">
+            <div id="contact-header">
+                <br>
+                <h2>Contact Us</h2>
+                <h3>info@happydaydessertfactory.com<br>
+                    Tel: 412 872-0117</h3>
+            </div>
+            <form onsubmit="return validate();">
+                <fieldset>
+                    <legend><h3>Join Our Mailing List!</h3></legend>
+                    <!-- Include input fields for name and date of birth here -->
+                    <label for="Name"><strong>Name:</strong></label><br>
+                    <input type="text" id="Name" name="Name" placeholder ="Your Name" maxlength="50" required><br>
+                    <br>
+                    <label for="zip"><strong>Zip Code:</strong></label><br>
+                    <input type="text" id="zip" name="zip" placeholder="e.g. 12345" required pattern = "[0-9]{5}"><br>
+                    <br>
+                    <label for="email"><strong>Email Address:</strong></label><br>
+                    <input type="email" id="email" name="email" placeholder="abc@defg.com" maxlength="50"><br>
+                    <br>
+                    <label for="subscribe"><strong>Would you like to subscribe to our newsletter?</strong></label><br>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Yes!</label><br>
+                    <br>
+
+                    <button class="submit-button">Join!</button>
+                </fieldset>
+                <br>  
+            </form>        
+        </div>  
+        <br><br>
+        <div class="map">
+            <br>
+            <h3>Locate Us here!</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.04913451974!2d-80.01915414917227!3d40.452049461313415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f55936fcaed9%3A0x5d18ed4b7f0c8f5a!2sHappy%20Day%20Dessert%20Factory!5e0!3m2!1sen!2sus!4v1680409490898!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br><br>
+        </div>
+        <br><br>
+        <footer>
+            <br>
+            <div id="footer-container">
+                <div class="address">
+                    <p>906A Western Ave.<br>
+                        Pittsburgh,<br>
+                        PA 15233</p>
+                </div>
+                <div class="hours">
+                    <p>TAKE OUT AND DINE IN AVAILABLE<br>
+                        Hours of Operation:<br>12PM-8PM</p>
+                </div>
+                    <div class="copyright">
+                        <br><br><br><br>
+                        &copy; Happy Day Dessert Factory
+                    </div>
+                </div>
+                <br>
+                <div class = "icons">
+                    <a href="https://www.facebook.com/happydaydessertfactory/"><img src="images/facebook.png" alt="facebook icon"></a>
+                    <a href="mailto:info@happydaydessertfactory.com"><img src="images/email.png" alt="mailto icon"></a>
+                    <a href="https://www.pittsburghmagazine.com/happy-day-dessert-factory-brings-frozen-delights-to-the-north-side/"><img src="images/article.png" width="24" height="28" alt="story icon"></a>
+                </div>
+                <br>
+        </footer>
+    </div>
