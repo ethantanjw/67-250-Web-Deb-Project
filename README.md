@@ -1,4 +1,4 @@
-#Web-Dev-Project
+Web-Dev-Project
 
 Created the front end of a website for Happy Day Dessert Factory in Pittsburgh, PA
 
